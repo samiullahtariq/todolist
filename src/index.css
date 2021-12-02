@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div {
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.content_div {
+  height: 450px;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: inherit;
+  box-shadow: 2px 4px 5px whitesmoke;
+  margin: auto;
+  text-align: center;
+  background-color: violet;
+}
+
+button:hover {
+  background-color: green;
+}
